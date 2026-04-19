@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local runtime data
+output/
+cache/
+models/
+browser_jobs/
+*.log
+*.tmp
+
+# Local/private config
+config.yaml
+*.cookies.txt
+cookies.txt
+*.env
+.env
+
+# Media and generated artifacts
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.srt
+*.vtt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

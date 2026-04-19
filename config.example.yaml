@@ -1,0 +1,15 @@
+asr:
+  model_size: small
+  device: cpu
+  compute_type: int8
+  language: zh
+  beam_size: 1
+
+ollama:
+  base_url: http://localhost:11434
+  summary_model: qwen-summary:1.5b
+  translate_model: qwen3:8b
+
+paths:
+  cache_dir: cache
+  output_dir: output
