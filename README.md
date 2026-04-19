@@ -54,6 +54,12 @@ python -m venv .venv
 
 本项目依赖 `imageio-ffmpeg`，通常不需要单独安装系统 ffmpeg。
 
+## 使用说明
+
+新用户建议先看完整使用说明：
+
+- [docs/USAGE.md](docs/USAGE.md)
+
 ## Ollama 模型
 
 先确保 Ollama 已启动：
@@ -206,4 +212,3 @@ cookies-from-browser: chrome / edge / firefox
 - “不下载视频”在技术上不能做到 100%。转写必须读取音频数据，但本项目可以只缓存音频，不保存完整视频。
 - 批量处理请遵守平台规则和版权要求，建议用于个人学习、检索和资料整理。
 - 本项目默认只绑定本机 `127.0.0.1`，浏览器扩展通过本地服务提交任务。
-
