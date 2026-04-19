@@ -34,10 +34,10 @@ cookies.txt
 *.wav
 *.srt
 *.vtt
+docs/assets/Screenshot*.png
 
 # OS/editor noise
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
-
