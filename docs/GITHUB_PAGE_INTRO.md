@@ -1,8 +1,8 @@
-# BiliTube AI Summary（B站 YouTube AI总结助手）页面介绍
+# Bilibili YouTube AI Summary（B站 YouTube AI总结助手）页面介绍
 
 ## 仓库简介
 
-BiliTube AI Summary（B站 YouTube AI总结助手）是一个专门用于 AI 总结 B 站和 YouTube 视频内容的本地工具。它支持 Bilibili、YouTube 和本地视频文件，通过 `yt-dlp` 获取音频或字幕，用 `faster-whisper` 在本机完成语音识别，并调用 Ollama 本地模型生成中文翻译、标题翻译和视频总结。
+Bilibili YouTube AI Summary（B站 YouTube AI总结助手）是一个专门用于 AI 总结 B 站和 YouTube 视频内容的本地工具。它支持 Bilibili、YouTube 和本地视频文件，通过 `yt-dlp` 获取音频或字幕，用 `faster-whisper` 在本机完成语音识别，并调用 Ollama 本地模型生成中文翻译、标题翻译和视频总结。
 
 ## 一句话介绍
 
@@ -10,13 +10,16 @@ BiliTube AI Summary（B站 YouTube AI总结助手）是一个专门用于 AI 总
 
 ## GitHub About 描述
 
-BiliTube AI Summary: local Bilibili/YouTube AI video summarizer with subtitle extraction, transcription, translation, Ollama summaries, CLI and browser extension.
+Bilibili YouTube AI Summary: local AI video summarizer for Bilibili and YouTube, with subtitle extraction, transcription, translation, Ollama summaries, CLI and browser extension.
 
 ## Topics
 
 ```text
 bilibili
 youtube
+ai-summary
+video-summary
+video-summarizer
 speech-to-text
 whisper
 faster-whisper
@@ -25,6 +28,12 @@ yt-dlp
 video-transcription
 browser-extension
 local-first
+```
+
+## 推荐仓库名
+
+```text
+bilibili-youtube-ai-summary
 ```
 
 ## 适合写在发布页的介绍

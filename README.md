@@ -1,11 +1,12 @@
-# BiliTube AI Summary（B站 YouTube AI总结助手）
+# Bilibili YouTube AI Summary（B站 YouTube AI总结助手）
 
 专门用于 **AI 总结 B 站和 YouTube 视频内容** 的本地工具。支持 Bilibili、YouTube、本地视频/音频文件，提供命令行和浏览器扩展两种使用方式。
 
 核心目标是：把视频内容快速变成可读的文字稿、中文字幕、重点总结和复习笔记。语音识别使用本地 `faster-whisper`，总结、正文翻译和标题翻译使用本地 Ollama 模型，不需要 API Key。
 
-> 项目英文名：BiliTube AI Summary  
+> 项目英文名：Bilibili YouTube AI Summary  
 > 项目中文名：B站 YouTube AI总结助手  
+> 推荐仓库名：`bilibili-youtube-ai-summary`  
 > 命令行包名暂时保留 `auto-tran-video`，避免影响现有用法。
 
 ## 功能
