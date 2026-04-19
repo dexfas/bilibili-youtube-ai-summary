@@ -49,9 +49,9 @@ bilibili-youtube-ai-summary
 ```text
 Source: Deploy from a branch
 Branch: main
-Folder: /docs
+Folder: /root
 ```
 
-这样 `docs/index.html` 会成为项目展示页。
+这样根目录 `index.html` 会成为项目展示页。
 
-注意：在 GitHub 仓库里直接点 `docs/index.html` 看到的是 HTML 源码。必须打开 GitHub Pages 生成的网址，或者在本地双击 `docs/index.html`，才会看到渲染后的展示页。
+注意：在 GitHub 仓库里直接点 `index.html` 看到的是 HTML 源码。必须打开 GitHub Pages 生成的网址，或者在本地双击 `index.html`，才会看到渲染后的展示页。
