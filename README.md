@@ -69,6 +69,19 @@ python -m venv .venv
 
 - [docs/index.html](docs/index.html)
 
+在 GitHub 里点 `docs/index.html` 看到的是源码，不是渲染后的网页。要看成品页面有两种方式：
+
+```text
+本地预览：直接双击 docs/index.html
+线上预览：GitHub 仓库 Settings -> Pages -> Branch 选 main /docs
+```
+
+启用 GitHub Pages 后，页面地址通常是：
+
+```text
+https://dexfas.github.io/bilibili-youtube-ai-summary/
+```
+
 ## Ollama 模型
 
 先确保 Ollama 已启动：
